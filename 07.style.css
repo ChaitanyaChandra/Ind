@@ -1,0 +1,44 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.one{
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(255, 153, 51);
+    height: 690px;
+}
+.two{
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    height: 233px;
+    margin-top: 230px;
+}
+.three{
+    border: 1px solid rgb(19, 136, 8);
+    background-color:rgb(19, 136, 8);
+    height:230px;
+    margin-top: 0px;
+}
+.img1{
+    height:230px;
+    width: fit-content;
+    margin-left: 600px;
+    -webkit-transform: spin 1s linear infinite;
+    -moz-animation: spin 1s linear infinite;
+    animation:spin 1s linear infinite;
+
+}
+.img1:hover{
+    -webkit-transform: spin 1s linear infinite;
+    -moz-animation: spin 1s linear infinite;
+    animation:spin 1s linear infinite;
+}
+@-webkit-keyframes spin{
+    100%{-webkit-transform: rotate(360deg);}
+}
+@-moz-keyframes spin{
+    100%{-webkit-transform: rotate(360deg);}
+}
+@keyframes spin{
+    100%{-webkit-transform: rotate(360deg);}
+}
